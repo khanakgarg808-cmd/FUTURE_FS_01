@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="Professional portfolio showcasing engineering and software development projects.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="bg-gradient"></div>
+
+    <nav>
+        <div class="logo">DE<span>V</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero section">
+        <div class="hero-content">
+            <p class="mono-text reveal">Hi, my name is</p>
+            <h1 class="reveal">Khanak Garg</h1>
+            <h2 class="reveal">I build digital experiences.</h2>
+            <p class="description reveal">
+                I'm an engineer specializing in data science and full-stack development. 
+                I focus on building clean, efficient, and scalable solutions.
+            </p>
+            <a href="#projects" class="btn reveal">View My Work</a>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h3 class="section-title">Projects</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <h4>Smart Automation System</h4>
+                <p>An IoT-based solution using Arduino and PIR sensors for efficient resource management.</p>
+                <div class="tags"><span>IoT</span> <span>Arduino</span> <span>C++</span></div>
+            </div>
+            <div class="project-card">
+                <h4>Data Visualization Hub</h4>
+                <p>A Python-powered interface for analyzing and visualizing complex datasets.</p>
+                <div class="tags"><span>Python</span> <span>SQL</span> <span>Data Science</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-container">
+            <h3>Get In Touch</h3>
+            <form id="contact-form">
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Your Message" rows="5"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
